@@ -1,10 +1,8 @@
-
-
 import express from "express"
 import bodyParser from "body-parser"
 import cors from "cors"
 import dotenv from "dotenv"
-
+import path from "path"
 import sort from "../testserver/routes/sort.js";
 
 const app = express()
