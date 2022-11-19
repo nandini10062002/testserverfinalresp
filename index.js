@@ -21,8 +21,8 @@ app.get('*', (req, res) => {
 app.use("/sort",sort)
 
 
-const PORT = process.env.PORT||5000
+const port = process.env.PORT||5000
 
-app.listen(PORT, ()=>{
-    console.log(`Server Started successfully ${PORT}`)
+app.listen(port, ()=>{
+    console.log(`Server Started successfully ${port}`)
 })
