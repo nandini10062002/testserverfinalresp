@@ -1,0 +1,31 @@
+
+.listContainer{
+    overflow: scroll;
+    height: 62%;
+    scrollbar-width: none;
+}
+
+.container{
+    margin: 8px ;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.listContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .listContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.tablehead{
+    text-transform: capitalize;
+    text-align: center;
+}

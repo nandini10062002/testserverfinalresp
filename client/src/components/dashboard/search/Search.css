@@ -1,0 +1,38 @@
+.searchbar{
+	display: flex;
+	gap: 8px;
+	margin-top: 16px;
+	height: 32px;
+}
+
+.searchbar .search{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #FEFEFE;
+	padding: 16px;
+	border-radius: 10px;
+	width: 20%;
+
+}
+
+.searchbar .search input{
+	border: none;
+	outline: none;
+}
+
+.searchbar select ,.input__date{
+	width: 20%;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	padding-left: 16px;
+}
+
+.searchbar button{
+	border: none;
+	border-radius: 50%;
+	background-color: antiquewhite;
+	outline: none;
+}
